@@ -12,19 +12,19 @@ function App() {
         <img src={tailorLogo} className="h-16 mx-auto" alt="Tailor logo" />
       </div>
       <h1>Hello World!</h1>
-      <div className="card">
+      {/* <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
-      </div>
+      </div> */}
       
       <div className="mt-8">
         <Chat />
       </div>
 
-      <p className="read-the-docs">
+      {/* <p className="read-the-docs">
         Made using Vite
-      </p>
+      </p> */}
     </div>
   )
 }
